@@ -2,6 +2,7 @@ import React from 'react';
 import Title from './components/Title.js';
 import Form from './components/Form.js';
 import Weather from './components/Weather.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const API_KEY = 'db7c25f991ce57c7dee255bcd98e4741';
 
 class App extends React.Component {
@@ -25,7 +26,7 @@ class App extends React.Component {
   
 if(city && country){
   console.log( data);
-  this.setState({
+	this.setState({
     temperature: data.main.temp,
     city:data.name,
     country:data.sys.country,
@@ -51,32 +52,30 @@ else{
 }
   render() {
     return (
-      <div>
-      <div className="wrapper">
-          <div className="main">
-            <div className="container">
-              <div className="row">
-              <div className="col-md-6 title-container">
-                <Title/>
+			<div>
+				
+            <div className="conatiner wrapper">
+            <div className="row display-table">
+            <div className="col-md-5 col-lg-5 col-sm-12 title-container" >
+                 <Title/> 
+                 
               </div>
-              <div className="col-md-6 form-container">
-              <Form getWeather = {this.getWeather} />
-              <Weather city={this.state.city}
-              country={this.state.country}
-              temperature = {this.state.temperature}
-              humidity= {this.state.temperature}
-              description={this.state.description}
-              error = {this.state.error}
-              />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+              <div className="col-md-5 col-lg-5 col-sm-12 form-container"> 
               
-      
-      
-      </div>
+                <Form getWeather = {this.getWeather} />
+				        <Weather city={this.state.city}
+				        country={this.state.country}
+				        temperature = {this.state.temperature}
+				        humidity= {this.state.temperature}
+				        description={this.state.description}
+				        error = {this.state.error}
+				        />
+              </div>
+							</div>
+						</div>
+            </div>
+					
+				
     );
   }
 }

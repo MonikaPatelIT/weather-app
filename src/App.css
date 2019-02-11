@@ -5,6 +5,9 @@
 body {
   font-family: "Open Sans", serif;
 }
+html,body,.container {
+  height:100%;
+}
 
 .wrapper {
   background: linear-gradient(to right, #e67e22, #e74c3c);
@@ -12,27 +15,31 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
-.main {
-  height: 90vh;
-  background: #fff;
-  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
-  width: 80%;
-  margin: 0 auto;
-}
+
 
 .title-container {
-  height: 90vh;
-  background: url("img/bg.jpg") center center no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
+   display: flex;
   justify-content: center;
+  align-items: center;
+  
   text-align: center;
-  color: #000;
+  margin: 0;
+  background: url("img/bg.jpg") center center no-repeat;
+  background-size: cover; 
 }
 
+.row.display-table {
+  display: table;
+  height: 80vh;
+}
+.row.display-table [class*='col-'] {
+  float: none;
+  display: table-cell;
+}
 .title-container__title {
   font-size: 50px;
   letter-spacing: 2px;
@@ -50,10 +57,14 @@ body {
 
 .form-container {
   background-color: #2c3e50;
-  height: 90vh;
-  padding-top: 100px;
-  padding-left: 50px;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  text-align: center;
+  margin: 0;
+    
+ }
 
 input[type="text"] {
   background-color: transparent;
