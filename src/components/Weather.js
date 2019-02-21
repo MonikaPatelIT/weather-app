@@ -1,35 +1,28 @@
 import React from 'react';
 
 const Weather = props => (
-    <div>
-        {
-            props.city && props.country && 
-            <p className="weather__key">Location: 
-               <span className="weather__value"> {props.city} , {props.country}</span>
-            </p> 
-        }
-        {
-            props.temperature && 
-            <p className="weather__key">Temperature : 
-            <span className="weather__value">{props.temperature} </span>
-            </p>
-            }
-        {
-            props.humidity && 
-            <p className="weather__key">Humidity :
-            <span className="weather__value"> {props.humidity}</span>
-            </p>
-        }
-        {
-            props.description && 
-            <p className="weather__key">Condition : <span className="weather__value"> {props.description}</span>
-            </p>
-        }
-        {
-            props.error &&  
-            <p className="weather__error">Error : {props.error}</p>
-        }
-    </div>
+            <div>
+                   
+                    {
+                    props.description &&  
+                    <h1 className="weather__description"> {props.description}</h1>
+                    }
+                    { props.city && props.country &&  <h3 className="weather__area">{props.city} , {props.country}</h3>}
+                    {
+                        props.temperature &&  <p className="temp">
+                        <span className="weather__tempvalue">{props.temperature} </span>
+                        <span className="weather__deg">0</span>
+                        <span className="weather__temptype">C</span>
+                    </p>
+                    }
+                 
+                    {
+                     props.error &&  
+                    <p className="weather__error">Error : {props.error}</p>
+                    }
+            </div>
+          
+    
 );
 
 export default Weather;
