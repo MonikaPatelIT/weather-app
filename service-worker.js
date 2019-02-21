@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https//monikapatelit.github.io/weather-app/precache-manifest.27f5de0c64f03b95c1d3afa88a2a41c0.js"
+  "https//monikapatelit.github.io/weather-app/precache-manifest.7d9cf9180c1b90e7a09af603e3825459.js"
 );
 
 workbox.clientsClaim();

@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "fa2772327f55d8198301fdb8bcfc8158",
-    "url": "https//monikapatelit.github.io/weather-app/static/media/glyphicons-halflings-regular.fa277232.woff"
+    "revision": "448c34a56d699c29117adc64c43affeb",
+    "url": "https//monikapatelit.github.io/weather-app/static/media/glyphicons-halflings-regular.448c34a5.woff2"
   },
   {
-    "revision": "4cbd8148c6e43a0da2b6",
-    "url": "https//monikapatelit.github.io/weather-app/static/css/main.282906cb.chunk.css"
+    "revision": "2cd2b6eb3c293a1bc0c9",
+    "url": "https//monikapatelit.github.io/weather-app/static/css/main.a0b16b56.chunk.css"
   },
   {
     "revision": "b6796c732547b6b7e19cdc8e4ad58356",
     "url": "https//monikapatelit.github.io/weather-app/static/media/bg.b6796c73.jpg"
   },
   {
-    "revision": "cbda27e7128cacbe9180",
-    "url": "https//monikapatelit.github.io/weather-app/static/js/1.cbda27e7.chunk.js"
+    "revision": "c95843f0fb04726530ad",
+    "url": "https//monikapatelit.github.io/weather-app/static/js/1.c95843f0.chunk.js"
   },
   {
     "revision": "3fc4dab71ba3f0d9daed",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "https//monikapatelit.github.io/weather-app/static/media/glyphicons-halflings-regular.f4769f9b.eot"
   },
   {
-    "revision": "4cbd8148c6e43a0da2b6",
-    "url": "https//monikapatelit.github.io/weather-app/static/js/main.4cbd8148.chunk.js"
+    "revision": "2cd2b6eb3c293a1bc0c9",
+    "url": "https//monikapatelit.github.io/weather-app/static/js/main.2cd2b6eb.chunk.js"
   },
   {
-    "revision": "448c34a56d699c29117adc64c43affeb",
-    "url": "https//monikapatelit.github.io/weather-app/static/media/glyphicons-halflings-regular.448c34a5.woff2"
+    "revision": "fa2772327f55d8198301fdb8bcfc8158",
+    "url": "https//monikapatelit.github.io/weather-app/static/media/glyphicons-halflings-regular.fa277232.woff"
   },
   {
     "revision": "e18bbf611f2a2e43afc071aa2f4e1512",
@@ -40,11 +40,11 @@ self.__precacheManifest = [
     "url": "https//monikapatelit.github.io/weather-app/static/media/glyphicons-halflings-regular.89889688.svg"
   },
   {
-    "revision": "cbda27e7128cacbe9180",
+    "revision": "c95843f0fb04726530ad",
     "url": "https//monikapatelit.github.io/weather-app/static/css/1.7dbf47aa.chunk.css"
   },
   {
-    "revision": "a96123b23b41d8df5d68cf134135d0fc",
+    "revision": "4b1c544c53bdef86b5edab587be87407",
     "url": "https//monikapatelit.github.io/weather-app/index.html"
   }
 ];
