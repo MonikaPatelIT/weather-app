@@ -1,4 +1,4 @@
-### Weather Application using React
+# Weather Application using React
 
 As a part of self study, I have worked on small and simple Weather cards to fetch weather by city and country using a third party API - [Open Weather API](https://openweathermap.org/api)
 
@@ -26,12 +26,12 @@ https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API
 ```
 Where we pass the API to access json data file with city and country to get the perticular area weather data
 
-# Two components 
+### Two components 
 
 - From component, to submit user event with city and contry details
 - Weather component, to display weather details requested 
 
-# Bootstraped
+## Bootstraped
 
 Tried to create responsive application using Boostrap 3.3.7
 
